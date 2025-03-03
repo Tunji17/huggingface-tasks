@@ -6,6 +6,7 @@ This repository contains Jupyter notebooks for experimenting with various NLP an
 
 - **Document Question Answering**: A notebook demonstrating how to use pre-trained models to answer questions about document images.
 - **Language Modeling**: A comprehensive notebook covering Causal and Masked language finetuning tasks using Hugging Face models.
+- **Embeddings**: A notebook showing how to generate and use text and image embeddings for similarity search and retrieval.
 
 ## Getting Started
 
@@ -37,6 +38,14 @@ The `language_modeling.ipynb` notebook covers language modeling tasks including:
 - Text generation
 - Fine-tuning language models
 - Working with the Hugging Face datasets library
+
+#### Embeddings
+
+The `embeddings.ipynb` notebook demonstrates:
+- Generating text embeddings using sentence-transformers models
+- Creating image embeddings with ViT (Vision Transformer)
+- Performing similarity search with both text and image data
+- Computing dot product similarity scores between embeddings
 
 ## Data
 
